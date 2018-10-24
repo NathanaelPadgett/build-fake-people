@@ -26,9 +26,6 @@ function build_fake_people($num=1){
 	return $people;
 }
 
-// ███████████████████████████████████████████████████
-// TODO: Disable the below pre and print_r statements
 print "<pre>";
 	print_r(build_fake_people(20));
 print "</pre>";
-// ███████████████████████████████████████████████████
